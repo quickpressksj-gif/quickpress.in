@@ -1,10 +1,12 @@
+import Header from "../components/Header";
+
 export default function Home() {
   return (
     <div>
-      <h1>QuickPress</h1>
-      <p>10-minute Express Ironing</p>
+      <Header />
 
-      <button>Get Started</button>
+      <h1>Ironing & Laundry in 10 Minutes</h1>
+      <button>Start Order</button>
     </div>
   );
 }
